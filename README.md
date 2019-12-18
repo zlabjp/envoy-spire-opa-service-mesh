@@ -3,7 +3,7 @@
 Demo to build Service Mesh on Kubernetese using Envoy as data plane and SPIRE and OPA as control plane. This demo is [zlabjp/spiffejp-demo](https://github.com/zlabjp/spiffejp-demo) with OPA added.
 
 - Use Kubernetes 1.17.0
-- Use Envoy 1.12.2, SPIRE 0.9.0 and OPA 0.15.1
+- Use [Envoy](https://github.com/envoyproxy/envoy) 1.12.2, [SPIRE](https://github.com/spiffe/spire) 0.9.0 and [OPA](https://github.com/open-policy-agent/opa) 0.15.1
 - Envoy uses SPIRE as SDS Server to obtain TLS certificate
 - Envoy uses OPA as External Authorization Server to check if the incoming request is authorized or not
 
