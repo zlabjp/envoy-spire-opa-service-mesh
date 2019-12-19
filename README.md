@@ -7,7 +7,7 @@ Demo to build Service Mesh on Kubernetese using Envoy as data plane and SPIRE an
 - Envoy uses SPIRE as SDS Server to obtain TLS certificate
 - Envoy uses OPA as External Authorization Server to check if the incoming request is authorized or not
 
-Blog is [here](https://qiita.com/ryysud). (Japanese)
+Blog is [here](https://qiita.com/ryysud/items/bbfc730e17f53be65ce0). (Japanese)
 
 ## Policy Overview
 
